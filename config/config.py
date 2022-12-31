@@ -7,10 +7,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "15039244"))
-API_HASH = getenv("API_HASH", "7ad462f23bd323421339cbcb7b10d893")
+API_ID = int(getenv("API_ID", "6246021"))
+API_HASH = getenv("API_HASH", "112a701ebaf8995ce35ba7ae4433eb4b")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5810602588:AAFee7uWE65y5EwbtyzrNMV_MfJoQtj_INc")
+BOT_TOKEN = getenv("BOT_TOKEN", "2084060024:AAG2qH4BL9PXPKFnvmuIxwDjcKFJG-jLXEQ")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://musicbot:musicbot@cluster0.508e9zd.mongodb.net/?retryWrites=true&w=majority")
 
@@ -22,12 +22,12 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001500880176"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001504160810"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᬊᬁ࿔•Ⓥⓘⓥⓘ•࿐ᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᬊᬁ࿔•PHOENIX•࿐ᴍᴜsɪᴄ​")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5012889763").split())
+    map(int, getenv("OWNER_ID", "1417352329").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -43,9 +43,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/kakashi_bots_updates")
+    "SUPPORT_CHANNEL", "https://t.me/Jaihindupuramking")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/kakashi_bots_support")
+    "SUPPORT_GROUP", "https://t.me/Jaihindupuramking")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -61,7 +61,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/akram228/VIVI-MUSIC-ROBOT")
+GITHUB_REPO = getenv("GITHUB_REPO", "@Jaihindupuramking")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQDlewwAmNsavr-pD1Phjto9KZXxiTjMnLsi64kkXu5jl2YecOYQ7XqSEp2okYCwjIbElH8QCbH5qdmHxj8S9Dw205JMLaj3Bqo0K0XcKyB7ANUSbTf4bni52mExLqnoFQwtg0VFUFxjXfgNO5FaQCeJe3BvVqOY9BodUXVCpE6z16cAfZhHhQIChK4Poan6OaND2pHRNm-zurLLmfSAULClr5GzLzLe3_9mWPQUhGZU0t4eEkjTCuCvVa_qrjcewd_ksccmoNgq_iakN9opxSwQ9qTNtlEVftKahXVcSRxnMQ-2hHe0JrV9b8_1T2A2mPwKbCpjJe21VK27zViwk3ZzeibSAgAAAAEqyqCjAA")
+STRING1 = getenv("STRING_SESSION", "BQBDs6xBrEi1fBwJXQFuN6DYQB8vVza7lPzjLiQ70_cwjg3MjU4d1mPb8DiHEjOs4Zbpy3Ty5RWHOL6PMXekcBjLeB1MxM_ib6f9vPosGllKVhubnsNT67FbbcgwNuQSlyZgim1PY5_nm-2qTxHATCW4CgWqzt_NErplRmetDa8vJ_d43ycVobOiDZx08iDVgoxljjfAddz9FwECZUKOSqbV3RAhk8JFj4cJGoONytuxyfBP5E10AEhuvyZYiGsCqhGQTWkylgXCdU_JNGTNU-tEFGpbNMgIoxhsWWgdRO_HsppVj8u0-HSqZHJHjX7KPJfe8ofbs3ru5VbWzxUuk84UVHsUiQA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -111,17 +111,17 @@ PING_IMG_URL = getenv(
 )
 
 PLAYLIST_IMG_URL = getenv(
-    "PLAYLIST_IMG_URL",
+    "https://telegra.ph/file/e91c4d01d431ba18cc533.jpg",
     "assets/Playlist.jpeg",
 )
 
 GLOBAL_IMG_URL = getenv(
-    "GLOBAL_IMG_URL",
+    "https://telegra.ph/file/e91c4d01d431ba18cc533.jpg",
     "assets/Global.jpeg",
 )
 
 STATS_IMG_URL = getenv(
-    "STATS_IMG_URL",
+    "https://telegra.ph/file/e91c4d01d431ba18cc533.jpg",
     "assets/Stats.jpeg",
 )
 
